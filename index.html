@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/new.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <title>Tailwind Portfolio</title>
+</head>
+<body class="font-nunito" id="body">
+    <!-- intro section -->
+    
+    <div id="home"class="h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden ">
+        <!-- navbar -->
+        <nav class="w-full fixed top-0 bg-white z-10 pl-2 md:pl-0">
+            <div class="container mx-auto py-5 flex justify-between items-center">
+                <div class="flex items-center justify-center">
+                    <img class="w-8" src="./Images/logo.png" alt="">
+                    <span class="text-2xl font-bold text-blue-400 ">Syed A.Saboor</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+                    <li class="hover:text-gray-500">
+                        <a href="#home">Homepage</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#about">About me</a>
+                    </li>
+                    <li>
+                        <a id="hlink" href="#process">Process</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#services">Certificates</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#works">Works</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <img src="./Images/moon.png" class=" hidden md:block w-5 cursor-pointer" alt="Dark Mode">
+
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-10 mr-5">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                <li>
+                    <a id="hlink" href="#home">Homepage</a>
+                </li>
+                <li>
+                    <a id="hlink" href="#about">About me</a>
+                </li>
+                <li>
+                    <a id="hlink" href="#process">Process</a>
+                </li>
+                <li >
+                    <a id="hlink" href="#services">Certificates</a>
+                </li>
+                <li>
+                    <a id="hlink" href="#works">Works</a>
+                </li>
+                <li>
+                    <a id="hlink" href="#contact">Contact</a>
+                </li>   
+                </ul>   
+            </div>
+
+            
+            
+        
+        </nav>
+        
+        <!-- intro content -->
+
+        <!-- image -->
+        <img class="h-5/6 object-cover top-20  lg:left-0 lg:top-28 mx-auto absolute right-0 bottom-0"src="./Images/model.png" >
+        <!-- circle -->
+        <div class="hidden lg:block absolute -bottom-1/4 lg:top-40 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10"></div>
+        <!-- animated text -->
+        <div class=" absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-46 xl:text-7xl xl:left-10 font-bold">
+            <span class="text-gray-600">Freelance</span>
+            <p id="text" class="text-red-500"></p>
+            
+            
+        </div>
+        
+        
+        <!-- texts -->
+        <div class="hidden lg:flex flex-col gap-5 rounded-md shadow-xl  absolute top-0 bottom-0 right-10 m-auto bg-white p-6 h-fit w-1/3">
+            <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Saboor</h1>
+            <p class="text-gray-400">Unleash Creativity. Elevate Content.<br>
+
+                Ready to captivate your audience? As a passionate video editor and graphic designer, I'll bring striking visuals and storytelling finesse to your brand. Let's create magic together.<br>
+                
+                Contact me now!</p>
+            <a class="bg-indigo-600 text-xl px-3 py-2 rounded-md font-semibold w-fit text-white hover:bg-indigo-500" href="https://calendly.com/syedsaboor/30min">BOOK YOUR CALL</a>
+        </div>
+        
+
+    </div>
+    <!-- about -->
+    <div id="about"class=" px-10">
+        <div class=" md:hidden flex justify-center mt-10"><a class=" bg-indigo-600 text-xl px-3 py-2 rounded-md font-semibold w-fit text-white hover:bg-indigo-500" href="https://calendly.com/syedsaboor/30min">BOOK YOUR CALL</a></div>
+        <div class=" container py-40 mx-auto flex flex-col-reverse lg:flex-row items-center gap-20">
+            <!-- left -->
+            <div class="relative ">
+                <img class="absolute w-[25vh] top-0 left-0 -z-10" src="./Images/dots.png">
+                <div class="h-full rounded-full overflow-hidden">
+                    <img src="./Images/potrait.png">
+                </div>
+            </div>
+            <!-- right  -->
+            <div class="my-auto flex flex-col gap-6">
+                <h1 class="text-indigo-600 font bold">About me</h1>
+                <h1 class="text-3xl">Better Creation</h1>
+                <h1 class="text-3xl">Better Design</h1>
+                <p class="text-gray-400">I am a creative storyteller and a skilled video editor and graphic designer. With a passion for visual communication, I thrive on transforming ideas into captivating content. My keen eye for detail and dedication to perfection ensure each project is a masterpiece. Collaborative by nature, I love working with clients to bring their visions to life. Let's create something remarkable together!</p>
+                
+                <h2>Premiere Pro</h2>
+                <div class="md:w-full bg-gray-200 h-1.5 rounded-md" >
+                    <div class="class=w-full bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2>After Effects</h2>
+                <div class="w-full md:w-full bg-gray-200 h-1.5 rounded-md" >
+                    <div class="w-4/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2>Social Media</h2>
+                <div class="md:w-full bg-gray-200 h-1.5 rounded-md" >
+                    <div class="w-4/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- aesh -->
+    <div id="process" class="flex flex-col md:flex-row justify-center items-center mb-20 gap-6">
+        <div class="w-full md:w-[70vh]"><img src="./Images/waste Post.png"></div>
+        <div class="w-fit md:w-[93vh]  flex justify-center"><img src="./Images/2nd.png"></div>
+    </div>
+
+
+    <!-- services  -->
+    <div id="services">
+        <div class="container mx-auto">
+            <!-- top  -->
+            <div class="flex flex-col gap-3 justify-center items-center">
+                <h1 class="text-indigo-600 font bold">Certificates</h1>
+                <h1 class="text-xl md:text-3xl">Credentials and Achievements</h1>
+                <p class="text-center w-1/2 text-gray-400">Certified and skilled! My accolades in video editing and graphic design speak to my commitment to excellence and continuous learning. Let my certifications assure you of my dedication to delivering top-notch creative solutions.</p>
+            <!-- bottom  -->
+            <div class="p-5 sm:p-0 sm:h-[60vh] flex flex-wrap justify-center h-[60vh] md:h-[80vh] ">
+                <!-- cards -->
+
+                <div id="clic" class="w-[50vh] md:w-[75vh] shadow-xl rounded-lg p-5 absolute gap-3 my-30 md:my-10">
+                    <img id="clic" class=" w-[100vh] "src="./Images/alex.jpg">
+                    <div id="clic"
+                    class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                    
+                    <!-- <h1 class="font-medium text-lg">Ads Editing</h1> -->
+                    <!-- <p class="text-gray-400">Basic ads that run on facebook they are not that simple you don't know</p> -->
+                </div>
+                <!-- cards -->
+                <!-- <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10"src="./Images/cicon.png">
+                    <h1 class="font-medium text-lg">Ads Editing</h1>
+                    <p class="text-gray-400">Basic ads that run on facebook they are not that simple you don't know</p>
+                </div>
+                <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10"src="./Images/cicon.png"> 
+                    <h1 class="font-medium text-lg">Ads Editing</h1>
+                    <p class="text-gray-400">Basic ads that run on facebook they are not that simple you don't know</p>
+                </div>
+                <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10"src="./Images/cicon.png">
+                    <h1 class="font-medium text-lg">Ads Editing</h1>
+                    <p class="text-gray-400">Basic ads that run on facebook they are not that simple you don't know</p>
+                </div>
+                <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10"src="./Images/cicon.png">
+                    <h1 class="font-medium text-lg">Ads Editing</h1>
+                    <p class="text-gray-400">Basic ads that run on facebook they are not that simple you don't know</p>
+                </div>
+                <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10 ">
+                    <img class="w-10"src="./Images/cicon.png">
+                    <h1 class="font-medium text-lg">Ads Editing</h1>
+                    <p class="text-gray-400">Basic ads that run on facebook they are not that simple you don't know</p>
+                </div>  -->
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- work  -->
+    <div id="works">
+        <div>
+            <div class="container mx-auto">
+                <!-- top  -->
+                <div class="flex flex-col gap-3 items-center">
+                    <h1 class="text-indigo-600 font bold">Portfolio</h1>
+                    <h1 class="text-3xl">Some of my best works
+                    </h1>
+                    <p class="text-center w-1/2 text-gray-400">Welcome to my video editing portfolio! As a passionate video editor, I've curated a collection of captivating projects that showcase my storytelling finesse, seamless transitions, and creative flair. Let's collaborate and take your videos to the next level!</p>
+        </div>
+        <div class="p-5 sm:p-0 flex flex-wrap justify-center gap-20 mt-20 mb-20">
+            <div class=" flex h-[35vh] w-[60vh]">
+                <iframe  class="rounded-lg h-full w-full"width="560" height="315" src="https://www.youtube.com/embed/LFe-YkaUxE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="flex h-[35vh] w-[60vh]">
+                <iframe width="560" class="rounded-lg h-full w-full" height="315" src="https://www.youtube.com/embed/j2TNn-jByRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class=" flex h-[35vh] w-[60vh]">
+                <iframe class="rounded-lg h-full w-full" width="560" height="315" src="https://www.youtube.com/embed/JKHyRMowRfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <!-- <div class="w-full md:w-4/12 shadow-xl rounded-lg flex flex-col gap-3 my-3 md:my-10 m-1 lg:w-1/5">
+                <img class=""src="./Images/items.png">
+            </div>
+            <div class="w-full md:w-4/12 shadow-xl rounded-lg flex flex-col gap-3 my-3 md:my-10 m-1 lg:w-1/5">
+                <img class=""src="./Images/items.png">
+            </div>  
+                <div class="w-full md:w-4/12 shadow-xl rounded-lg flex flex-col gap-3 my-3 md:my-10 m-1 lg:w-1/5">
+                <img class=""src="./Images/items.png">
+            </div> 
+                <div class="w-full md:w-4/12 shadow-xl rounded-lg flex flex-col gap-3 my-3 md:my-10 m-1 lg:w-1/5">
+                <img class=""src="./Images/items.png">
+            </div> 
+                <div class="w-full md:w-4/12 shadow-xl rounded-lg flex flex-col gap-3 my-3 md:my-10 m-1 lg:w-1/5">
+                <img class=""src="./Images/items.png">
+            </div> 
+                <div class="w-full md:w-4/12 shadow-xl rounded-lg flex flex-col gap-3 my-3 md:my-10 m-1 lg:w-1/5">
+                <img class=""src="./Images/items.png">
+            </div>
+            <div class="w-full md:w-4/12 shadow-xl rounded-lg flex flex-col gap-3 my-3 md:my-10 m-1 lg:w-1/5">
+                <img class=""src="./Images/items.png">
+            </div> 
+            <div class="w-full md:w-4/12 shadow-xl rounded-lg flex flex-col gap-3 my-3 md:my-10 m-1 lg:w-1/5">
+                <img class=""src="./Images/items.png">
+            </div>   -->
+        </div>
+        
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container mx-auto">
+            
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font bold">Contact</h1>
+                <h1 class="text-3xl">Have a Question?
+                </h1>
+                
+            </div>
+            <div class="flex justify-center items-center m-10 gap-4">
+                <p class="text-center w-fit text-gray-400 p-0">Email me: syedsaboor005@gmail.com</p>
+                <div><button class="bg-indigo-600 text-xl px-3 py-2 rounded-md font-semibold text-white h-12 w-12 hover:bg-indigo-500" type="button"><a target=”_blank” href="mailto: syedsaboor005@gmail.com"><img src="./Images/email.png"></a></button></div>
+                
+            </div>
+            
+            
+            <!-- <form id="form"class="mt-5 p-8 flex flex-col gap-5 items-center">
+                <input id="name" class="p-2 w-full md:w-[50vh] ring-1 ring-indigo-300" type="text" placeholder="Name" required>
+                <input id="email" class="p-2 w-full md:w-[50vh] ring-1 ring-indigo-300" type="email" placeholder="Email Address" required>
+                <textarea id="message"class="p-2 w-full md:w-[50vh] ring-1 ring-indigo-300" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <button class="w-[50vh] bg-indigo-600 text-white font-medium px-3 py-2 cursor-pointer rounded-md" value="Register">Submit</button>
+
+            </form> -->
+
+        </div>
+    </div>
+    
+    <div class="w-full bg-gray-800">
+        <div class="container mx-auto py-5 flex justify-between items-center">
+            <div class="flex items-center justify-center">
+                <img class="w-8" src="./Images/logo.png" alt="">
+                <span class="text-2xl font-bold text-white" >Syed A.Saboor</span>
+            </div>
+            <span class="hidden md:block text-center font-medium text-white">©2023 Copyright. Design with ❤️ by Syed A.Saboor</span> 
+
+           
+        </div>
+        
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+    <scripts src="./script.js"></script>
+</body>
+</html>
